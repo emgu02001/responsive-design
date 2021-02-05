@@ -1,0 +1,29 @@
+
+body{
+	display: grid;
+	grid-template-columns: 50vw 50vw;
+	grid-template-rows: 50vh 50vh;
+	
+}
+
+nav{
+	background-color: red;
+}
+header{
+	background-color: blue;
+}
+footer{
+	background-color: green;
+}
+main{
+	background-color: yellow;
+}
+h1{
+	font-size: 50px;
+}
+
+@media screen and (max-width: 1080px){
+	h1{
+		font-size: 50px;
+	}
+}

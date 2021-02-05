@@ -1,0 +1,22 @@
+
+
+html{
+	background-color: #69d1cc;
+	height: 100vh;
+}
+
+body{
+	background-color: yellow;
+	height: 100vh;
+	width: 100vh;
+	border-radius: 100%;
+	margin: auto;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
